@@ -1,0 +1,47 @@
+# ---- SAMPLE YAML OF JOB CONFIG FILE ---- #
+
+# !MANDATORY! Metrics and Metrics directories be executed
+#metrics:
+#  - /path/to/metric-1
+#  - /path/to/metric-2
+#
+## Input configuration
+#inputs:
+#  input_1:
+#    file:
+#      path: C:/Users/Rajdeep.borana/Downloads/movies.csv
+#  input_2:
+#    file:
+#      path: C:/Users/Rajdeep.borana/Downloads/ratings.csv
+#
+#
+## You can also use named outputs (all outputs above are supported)
+#outputs:
+#  fileDir1:
+#    file:
+#      dir: C:/Users/Rajdeep.borana/Downloads/Output
+##  fileDir2:
+##    file:
+##      dir: /path/to/parquet/output2
+#
+#
+## If set to true, triggers Explain before saving
+#explain: true
+#
+## Shows a Preview of the output
+#showPreviewLines: 42
+#
+## Prints the query after running it
+#showQuery: true
+#
+## Caches the step before each preview
+#cacheOnPreview: true
+#
+## Set Log Level : ALL, DEBUG, ERROR, FATAL, INFO, OFF, TRACE, WARN
+#logLevel: WARN
+
+# Set Application Name to have app name prefix in spark instrumentation counters
+appName: YAMLApplication
+
+# Optional: controls caching and counting on each output (default is true)
+local_or_Cluster: local[*]
