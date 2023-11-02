@@ -3,7 +3,7 @@ We have Designed ETL pipelines that extract and load data seamlessly. we have de
 
 **YAML Configuration File:-**
 1. Create a YAML configuration file that defines the various data sources, target layer, and transformations to be applied.
-2. The YAML file should include details such as source connection information, target connection information, and transformation rules.[Uploading data.yaml…]()
+2. The YAML file should include details such as source connection information, target connection information, and transformation rules.
 
    
 **Apache Spark with Scala:-**
